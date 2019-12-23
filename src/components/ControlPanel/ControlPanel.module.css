@@ -1,0 +1,32 @@
+.dropdownButton {
+  cursor: pointer;
+}
+
+.dropdownButton:focus {
+  color: #f8f9fa!important;
+}
+
+.dropdownButton:hover {
+  color: #dae0e5!important;
+}
+
+.dropdownScroll {
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.dummyIcon {
+  width: 0;
+}
+
+@media (min-width: 576px) {
+  width: 34px;
+}
+
+a.link:focus {
+  color: #f8f9fa!important;
+}
+
+a.link:hover {
+  color: #dae0e5!important;
+}
